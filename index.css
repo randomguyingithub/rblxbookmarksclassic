@@ -1,0 +1,48 @@
+body {
+	background-color: #e4e6eb;
+}
+iframe {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 999999;
+	height: 100%;
+}
+
+@media (prefers-color-scheme: dark){
+	body {
+		background-color: #2b3647;
+		color:white;
+	}
+	p ul li{
+		color: white;
+	}
+	ul li::before{
+		color: white;
+	}
+	
+	a:link {
+	  color: aqua;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: Plum;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: hotpink;
+	}
+
+	/* selected link */
+	a:active {
+	  color: blue;
+	}
+}
